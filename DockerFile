@@ -1,4 +1,4 @@
-FROM java:8
+FROM openjdk:8-jdk-alpine
 EXPOSE 5000
 EXPOSE 5001
 ADD /releases/transaction-auth-api-1.0.0.jar transaction-auth-api-1.0.0.jar
