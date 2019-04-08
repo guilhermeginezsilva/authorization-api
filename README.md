@@ -52,20 +52,10 @@ There are 2 options to run this project:
 2. Run the executable:
         
     ###Just navigate to the releases directory inside the project and run the command below:
-    java -jar authorization-api-0-0-1.jar
+    java -jar transaction-auth-api-1.0.0.jar
     
 ### It's Running!! And now?
-Well, running the tests you can check that the application is working correctly, but we know that there isn't nothing better than having some fun with these projects, so I have prepared two ways of doing it:
-
-* You can use Postman application; a script ("URL Shortener.postman_collection.json") with the request structures is available also in the releases directory, just import in your postman application and have fun;
-
-
-    ###You can find postman installation instructions here:
-    https://www.getpostman.com/
-    
-    ###After download, you may find a "import" button in the top of the screen. Just import the script and you will be available to make the requests.
-    
-* you can access the AWS deployed test application and the server:
+Well, running the tests you can check that the application is working correctly, but we know that there isn't nothing better than having some fun with these projects, so you can access it running on localhost or you can access the AWS deployed application:
 
 Site: http://3.92.212.39:5000/
 
