@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.ginezgit</groupId>
-	<artifactId>base-api</artifactId>
+	<artifactId>transaction-auth-api</artifactId>
 	<version>1.0.0</version>
-	<name>transaction-auth</name>
+	<name>transaction-auth-api</name>
 	<description>transaction authorizer API</description>
 
 	<properties>

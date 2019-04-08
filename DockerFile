@@ -1,0 +1,5 @@
+FROM java:8
+EXPOSE 5000
+EXPOSE 5001
+ADD /target/transaction-auth-api-1.0.0.jar transaction-auth-api-1.0.0.jar
+ENTRYPOINT [“java”, “-jar”, “transaction-auth-api-1.0.0.jar”]
