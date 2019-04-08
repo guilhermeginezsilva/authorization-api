@@ -1,5 +1,8 @@
 FROM openjdk:8-jdk-alpine
 EXPOSE 5000
 EXPOSE 5001
+ENV SERVER_PORT=5000
+ENV AUTHORIZATION_ENDPOINT_PORT=5001
+ENV AUTHORIZATION_ENDPOINT_HOST=0.0.0.0
 ADD /releases/transaction-auth-api-1.0.0.jar transaction-auth-api-1.0.0.jar
 ENTRYPOINT ["java", "-jar", "transaction-auth-api-1.0.0.jar"]
