@@ -10,9 +10,9 @@
 	</parent>
 	<groupId>br.com.ginezgit</groupId>
 	<artifactId>base-api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>transaction-auth</name>
-	<description>transaction authorizer</description>
+	<description>transaction authorizer API</description>
 
 	<properties>
 		<java.version>1.8</java.version>
